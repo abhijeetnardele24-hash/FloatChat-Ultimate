@@ -303,7 +303,8 @@ export default function ChatPage() {
     const [newId, setNewId] = useState<string | null>(null)
     const bottomRef = useRef<HTMLDivElement>(null)
     const textRef = useRef<HTMLTextAreaElement>(null)
-    const recRef = useRef<SpeechRecognition | null>(null)
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const recRef = useRef<any>(null)
 
     useEffect(() => {
         if (!loading) bottomRef.current?.scrollIntoView({ behavior: 'auto' })
@@ -345,10 +346,12 @@ export default function ChatPage() {
 
     function toggleVoice() {
         if (listening) { recRef.current?.stop(); setListening(false); return }
-        const SR = (window as Window & { webkitSpeechRecognition?: typeof SpeechRecognition }).webkitSpeechRecognition ?? window.SpeechRecognition
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const SR = (window as any).webkitSpeechRecognition ?? (window as any).SpeechRecognition
         if (!SR) { alert('Speech recognition not supported'); return }
         const rec = new SR(); rec.continuous = false; rec.interimResults = true; rec.lang = 'en-US'
-        rec.onresult = (e: SpeechRecognitionEvent) => { setInput(Array.from(e.results).map(r => r[0].transcript).join('')); setTimeout(resize, 0) }
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        rec.onresult = (e: any) => { setInput(Array.from(e.results).map((r: any) => r[0].transcript).join('')); setTimeout(resize, 0) }
         rec.onend = () => setListening(false); rec.onerror = () => setListening(false)
         recRef.current = rec; rec.start(); setListening(true)
     }
