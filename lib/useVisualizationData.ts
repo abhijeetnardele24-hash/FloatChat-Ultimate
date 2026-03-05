@@ -74,7 +74,7 @@ export function useVisualizationData(): VizData {
         try {
             const res = await fetch('/api/direct/argo/stats')
             if (res.ok) {
-                const data: VizStats = await res.json()
+                const data = await res.json() as VizStats & { error?: unknown }
                 if (!data.error) {
                     setStats(data)
                 }

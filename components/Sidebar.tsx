@@ -62,8 +62,7 @@ export default function Sidebar() {
                     {/* Header Logo */}
                     <div style={{ padding: '0 8px' }}>
                         <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
-                            <FloatChatLogo size={18} color={APPLE_BLUE} />
-                            <span style={{ fontSize: 14, fontWeight: 700, color: APPLE_TEXT, letterSpacing: '-0.02em', fontFamily: FONT }}>FloatChat</span>
+                            <FloatChatLogo size={18} />
                         </Link>
                     </div>
 

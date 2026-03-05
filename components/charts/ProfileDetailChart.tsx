@@ -29,11 +29,11 @@ export default function ProfileDetailChart({ data, height = 400 }: ProfileDetail
           Temperature and Salinity vs Depth • {data.length} data points
         </p>
       </div>
-      
+
       <ResponsiveContainer width="100%" height={height}>
         <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
-          
+
           <XAxis
             type="number"
             dataKey="depth"
@@ -47,7 +47,7 @@ export default function ProfileDetailChart({ data, height = 400 }: ProfileDetail
             }}
             tick={{ fontSize: 12 }}
           />
-          
+
           <YAxis
             type="number"
             dataKey="temperature"
@@ -58,7 +58,7 @@ export default function ProfileDetailChart({ data, height = 400 }: ProfileDetail
               style: { textAnchor: 'middle' }
             }}
           />
-          
+
           <YAxis
             type="number"
             dataKey="salinity"
@@ -69,7 +69,7 @@ export default function ProfileDetailChart({ data, height = 400 }: ProfileDetail
               style: { textAnchor: 'middle' }
             }}
           />
-          
+
           <Line
             type="monotone"
             dataKey="temperature"
@@ -77,7 +77,7 @@ export default function ProfileDetailChart({ data, height = 400 }: ProfileDetail
             strokeWidth={2}
             dot={{ fill: "#ef4444" }}
           />
-          
+
           <Line
             type="monotone"
             dataKey="salinity"
@@ -85,19 +85,19 @@ export default function ProfileDetailChart({ data, height = 400 }: ProfileDetail
             strokeWidth={2}
             dot={{ fill: "#3b82f6" }}
           />
-          
+
           <Tooltip
             content={({ active, payload }) => {
               if (active && payload && payload.length) {
                 const depth = payload[0]?.value
                 const temp = payload.find((p: any) => p.dataKey === 'temperature')
                 const sal = payload.find((p: any) => p.dataKey === 'salinity')
-                
+
                 return (
                   <div className="bg-white p-2 rounded shadow">
                     <p className="font-semibold">Depth: {depth}m</p>
                     {temp && <p className="text-blue-600">Temperature: {temp.value}°C</p>}
-                    {sal && <p className="text-cyan-600">Salinity: {sal.value} PSU</p>
+                    {sal && <p className="text-cyan-600">Salinity: {sal.value} PSU</p>}
                   </div>
                 )
               }
