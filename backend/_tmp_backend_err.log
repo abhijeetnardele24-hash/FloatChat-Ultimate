@@ -1,0 +1,11 @@
+INFO:main:ARGO filter router loaded successfully
+INFO:main:Tools router loaded successfully
+INFO:main:Export router loaded successfully
+INFO:     Started server process [31772]
+INFO:uvicorn.error:Started server process [31772]
+INFO:     Waiting for application startup.
+INFO:uvicorn.error:Waiting for application startup.
+INFO:     Application startup complete.
+INFO:uvicorn.error:Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:uvicorn.error:Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)

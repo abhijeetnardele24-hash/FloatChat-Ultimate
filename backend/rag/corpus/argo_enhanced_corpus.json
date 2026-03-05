@@ -1,0 +1,276 @@
+[
+  {
+    "title": "Temperature Analysis - Indian Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Temperature analysis for Indian Ocean based on ARGO float observations:\n- Average temperature: 13.9°C\n- Temperature range: 2.02°C to 29.87°C\n- Data coverage: 250 profiles with 250 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: This temperature distribution indicates thermal structure and ocean dynamics in Indian Ocean.",
+    "keywords": [
+      "temperature",
+      "ocean",
+      "thermal structure",
+      "ARGO",
+      "indian ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Salinity Analysis - Indian Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Salinity analysis for Indian Ocean based on ARGO float observations:\n- Average salinity: 34.87 PSU\n- Salinity range: 34.0 PSU to 35.98 PSU\n- Data coverage: 250 profiles with 250 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: Salinity patterns reveal water mass characteristics, freshwater influence, and ocean circulation in Indian Ocean.",
+    "keywords": [
+      "salinity",
+      "ocean",
+      "water mass",
+      "ARGO",
+      "indian ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Regional Oceanography - Indian Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Regional oceanographic summary for Indian Ocean from ARGO observations:\n- Monitoring assets: 5 active floats\n- Profile density: 250 vertical profiles\n- Temperature-salinity characteristics: T range 2.02-29.87°C, S range 34.0-35.98 PSU\n- Temporal coverage: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Research applications: Climate monitoring, ocean circulation studies, marine ecosystem assessment, and climate change impact analysis in Indian Ocean.",
+    "keywords": [
+      "oceanography",
+      "regional",
+      "climate",
+      "circulation",
+      "indian ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Temperature Analysis - Atlantic Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Temperature analysis for Atlantic Ocean based on ARGO float observations:\n- Average temperature: 14.17°C\n- Temperature range: 2.2°C to 29.16°C\n- Data coverage: 100 profiles with 100 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: This temperature distribution indicates thermal structure and ocean dynamics in Atlantic Ocean.",
+    "keywords": [
+      "temperature",
+      "ocean",
+      "thermal structure",
+      "ARGO",
+      "atlantic ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Salinity Analysis - Atlantic Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Salinity analysis for Atlantic Ocean based on ARGO float observations:\n- Average salinity: 34.87 PSU\n- Salinity range: 34.07 PSU to 35.99 PSU\n- Data coverage: 100 profiles with 100 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: Salinity patterns reveal water mass characteristics, freshwater influence, and ocean circulation in Atlantic Ocean.",
+    "keywords": [
+      "salinity",
+      "ocean",
+      "water mass",
+      "ARGO",
+      "atlantic ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Regional Oceanography - Atlantic Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Regional oceanographic summary for Atlantic Ocean from ARGO observations:\n- Monitoring assets: 2 active floats\n- Profile density: 100 vertical profiles\n- Temperature-salinity characteristics: T range 2.2-29.16°C, S range 34.07-35.99 PSU\n- Temporal coverage: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Research applications: Climate monitoring, ocean circulation studies, marine ecosystem assessment, and climate change impact analysis in Atlantic Ocean.",
+    "keywords": [
+      "oceanography",
+      "regional",
+      "climate",
+      "circulation",
+      "atlantic ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Temperature Analysis - Pacific Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Temperature analysis for Pacific Ocean based on ARGO float observations:\n- Average temperature: 13.38°C\n- Temperature range: 2.07°C to 29.87°C\n- Data coverage: 100 profiles with 100 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: This temperature distribution indicates thermal structure and ocean dynamics in Pacific Ocean.",
+    "keywords": [
+      "temperature",
+      "ocean",
+      "thermal structure",
+      "ARGO",
+      "pacific ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Salinity Analysis - Pacific Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Salinity analysis for Pacific Ocean based on ARGO float observations:\n- Average salinity: 34.91 PSU\n- Salinity range: 34.0 PSU to 35.98 PSU\n- Data coverage: 100 profiles with 100 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: Salinity patterns reveal water mass characteristics, freshwater influence, and ocean circulation in Pacific Ocean.",
+    "keywords": [
+      "salinity",
+      "ocean",
+      "water mass",
+      "ARGO",
+      "pacific ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Regional Oceanography - Pacific Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Regional oceanographic summary for Pacific Ocean from ARGO observations:\n- Monitoring assets: 2 active floats\n- Profile density: 100 vertical profiles\n- Temperature-salinity characteristics: T range 2.07-29.87°C, S range 34.0-35.98 PSU\n- Temporal coverage: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Research applications: Climate monitoring, ocean circulation studies, marine ecosystem assessment, and climate change impact analysis in Pacific Ocean.",
+    "keywords": [
+      "oceanography",
+      "regional",
+      "climate",
+      "circulation",
+      "pacific ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Temperature Analysis - Southern Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Temperature analysis for Southern Ocean based on ARGO float observations:\n- Average temperature: 13.98°C\n- Temperature range: 2.07°C to 29.86°C\n- Data coverage: 100 profiles with 100 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: This temperature distribution indicates thermal structure and ocean dynamics in Southern Ocean.",
+    "keywords": [
+      "temperature",
+      "ocean",
+      "thermal structure",
+      "ARGO",
+      "southern ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Salinity Analysis - Southern Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Salinity analysis for Southern Ocean based on ARGO float observations:\n- Average salinity: 34.89 PSU\n- Salinity range: 34.01 PSU to 35.98 PSU\n- Data coverage: 100 profiles with 100 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: Salinity patterns reveal water mass characteristics, freshwater influence, and ocean circulation in Southern Ocean.",
+    "keywords": [
+      "salinity",
+      "ocean",
+      "water mass",
+      "ARGO",
+      "southern ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Regional Oceanography - Southern Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Regional oceanographic summary for Southern Ocean from ARGO observations:\n- Monitoring assets: 2 active floats\n- Profile density: 100 vertical profiles\n- Temperature-salinity characteristics: T range 2.07-29.86°C, S range 34.01-35.98 PSU\n- Temporal coverage: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Research applications: Climate monitoring, ocean circulation studies, marine ecosystem assessment, and climate change impact analysis in Southern Ocean.",
+    "keywords": [
+      "oceanography",
+      "regional",
+      "climate",
+      "circulation",
+      "southern ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Temperature Analysis - Arctic Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Temperature analysis for Arctic Ocean based on ARGO float observations:\n- Average temperature: 13.64°C\n- Temperature range: 2.21°C to 27.73°C\n- Data coverage: 50 profiles with 50 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: This temperature distribution indicates thermal structure and ocean dynamics in Arctic Ocean.",
+    "keywords": [
+      "temperature",
+      "ocean",
+      "thermal structure",
+      "ARGO",
+      "arctic ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Salinity Analysis - Arctic Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Salinity analysis for Arctic Ocean based on ARGO float observations:\n- Average salinity: 34.87 PSU\n- Salinity range: 34.02 PSU to 36.0 PSU\n- Data coverage: 50 profiles with 50 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: Salinity patterns reveal water mass characteristics, freshwater influence, and ocean circulation in Arctic Ocean.",
+    "keywords": [
+      "salinity",
+      "ocean",
+      "water mass",
+      "ARGO",
+      "arctic ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Regional Oceanography - Arctic Ocean",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Regional oceanographic summary for Arctic Ocean from ARGO observations:\n- Monitoring assets: 1 active floats\n- Profile density: 50 vertical profiles\n- Temperature-salinity characteristics: T range 2.21-27.73°C, S range 34.02-36.0 PSU\n- Temporal coverage: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Research applications: Climate monitoring, ocean circulation studies, marine ecosystem assessment, and climate change impact analysis in Arctic Ocean.",
+    "keywords": [
+      "oceanography",
+      "regional",
+      "climate",
+      "circulation",
+      "arctic ocean"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Temperature Analysis - Mediterranean Sea",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Temperature analysis for Mediterranean Sea based on ARGO float observations:\n- Average temperature: 13.54°C\n- Temperature range: 2.19°C to 29.75°C\n- Data coverage: 50 profiles with 50 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: This temperature distribution indicates thermal structure and ocean dynamics in Mediterranean Sea.",
+    "keywords": [
+      "temperature",
+      "ocean",
+      "thermal structure",
+      "ARGO",
+      "mediterranean sea"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Salinity Analysis - Mediterranean Sea",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Salinity analysis for Mediterranean Sea based on ARGO float observations:\n- Average salinity: 34.9 PSU\n- Salinity range: 34.16 PSU to 35.83 PSU\n- Data coverage: 50 profiles with 50 measurements\n- Observation period: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Scientific significance: Salinity patterns reveal water mass characteristics, freshwater influence, and ocean circulation in Mediterranean Sea.",
+    "keywords": [
+      "salinity",
+      "ocean",
+      "water mass",
+      "ARGO",
+      "mediterranean sea"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "Regional Oceanography - Mediterranean Sea",
+    "source": "ARGO Database Analysis - 2026-02-27",
+    "content": "Regional oceanographic summary for Mediterranean Sea from ARGO observations:\n- Monitoring assets: 1 active floats\n- Profile density: 50 vertical profiles\n- Temperature-salinity characteristics: T range 2.19-29.75°C, S range 34.16-35.83 PSU\n- Temporal coverage: 2021-01-11 00:00:00 to 2021-02-20 00:00:00\n- Research applications: Climate monitoring, ocean circulation studies, marine ecosystem assessment, and climate change impact analysis in Mediterranean Sea.",
+    "keywords": [
+      "oceanography",
+      "regional",
+      "climate",
+      "circulation",
+      "mediterranean sea"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "ARGO Program Overview and Scientific Impact",
+    "source": "ARGO Program Documentation",
+    "content": "The ARGO (Array for Real-time Geostrophic Oceanography) program is a global array of over 3,900 free-drifting profiling floats that measure temperature and salinity of the upper ocean. Key aspects:\n\n- Coverage: Global ocean with approximately one float every 3° latitude/longitude\n- Depth range: Surface to 2000 meters\n- Measurement frequency: Every 10 days per float\n- Data types: Temperature, salinity, pressure, and optional bio-geochemical parameters\n- Scientific impact: Enables real-time ocean monitoring, climate change detection, weather forecasting, and ocean circulation studies\n- Applications: Climate research, ocean modeling, marine ecosystem management, and operational oceanography",
+    "keywords": [
+      "ARGO",
+      "ocean monitoring",
+      "climate",
+      "temperature",
+      "salinity",
+      "global"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "ARGO Data Interpretation and Analysis Methods",
+    "source": "Oceanographic Data Analysis Guide",
+    "content": "Interpreting ARGO float data requires understanding oceanographic principles:\n\nTemperature Profiles:\n- Surface layer: Mixed layer with uniform temperature\n- Thermocline: Rapid temperature change with depth (typically 100-1000m)\n- Deep layer: Stable cold temperatures below thermocline\n- Seasonal variation: Surface temperatures change seasonally, deep waters remain stable\n\nSalinity Profiles:\n- Surface salinity: Affected by evaporation, precipitation, river runoff\n- Halocline: Salinity gradient layer, often coincides with thermocline\n- Deep salinity: Relatively stable around 34.6-34.9 PSU globally\n- Regional variations: High salinity in subtropical gyres, low near coasts and poles\n\nT-S Diagrams:\n- Water mass identification: Different water masses have characteristic T-S signatures\n- Mixing patterns: Curved lines indicate water mass mixing\n- Ocean currents: T-S properties trace water mass origins and pathways",
+    "keywords": [
+      "data interpretation",
+      "temperature profiles",
+      "salinity profiles",
+      "TS diagrams",
+      "oceanography"
+    ],
+    "score": 1.0
+  },
+  {
+    "title": "ARGO Data in Climate Change Research",
+    "source": "Climate Research Applications",
+    "content": "ARGO float data is critical for climate change monitoring and research:\n\nOcean Heat Content:\n- ARGO measures temperature changes throughout the water column\n- Ocean absorbs over 90% of excess heat from global warming\n- Heat content trends provide definitive evidence of climate change\n- Regional variations show different warming rates across ocean basins\n\nSea Level Rise:\n- Temperature measurements track thermal expansion of seawater\n- Combined with satellite altimetry for comprehensive sea level assessment\n- Regional sea level variations identified through ARGO density measurements\n\nCarbon Cycle:\n- Salinity and temperature data inform ocean carbon uptake calculations\n- Ocean acidification monitoring through complementary measurements\n- Biological pump efficiency assessment through temperature-salinity relationships\n\nWeather Prediction:\n- Real-time ARGO data improves weather forecast models\n- Ocean temperature influences atmospheric circulation patterns\n- Seasonal forecasting benefits from accurate ocean state initialization",
+    "keywords": [
+      "climate change",
+      "ocean heat content",
+      "sea level",
+      "carbon cycle",
+      "weather prediction"
+    ],
+    "score": 1.0
+  }
+]

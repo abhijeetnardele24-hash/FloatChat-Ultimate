@@ -1,0 +1,81 @@
+const fs = require('fs');
+const path = require('path');
+
+const bgs = {
+    'app/dashboard/page.tsx': 'https://images.unsplash.com/photo-1498623116890-37e912163d5d?q=80&w=3840&auto=format&fit=crop',
+    'app/tools/page.tsx': 'https://images.unsplash.com/photo-1551244072-5d12893278ab?q=80&w=3840&auto=format&fit=crop',
+    'app/visualizations/page.tsx': 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?q=80&w=3840&auto=format&fit=crop'
+};
+
+for (const [file, img] of Object.entries(bgs)) {
+    const fullPath = path.join(__dirname, file);
+    if (!fs.existsSync(fullPath)) continue;
+
+    let content = fs.readFileSync(fullPath, 'utf8');
+
+    const backgroundMarkup = `
+            {/* ── Apple-like Animated 4K Liquid Ocean Background ── */}
+            <div style={{ position: 'fixed', inset: 0, overflow: 'hidden', pointerEvents: 'none', zIndex: 0 }}>
+                {/* Flowing Ocean Image (Animated) */}
+                <div style={{ 
+                    position: 'absolute', inset: 0, 
+                    backgroundImage: 'url(${img})',
+                    backgroundSize: '120% 120%', 
+                    opacity: 0.85,
+                    animation: 'oceanFlow 35s ease-in-out infinite' 
+                }} />
+                
+                {/* Delicate Frosted Glass Overlay */}
+                <div style={{ 
+                    position: 'absolute', inset: 0, 
+                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.05) 0%, rgba(245,245,247,0.85) 100%)', 
+                    backdropFilter: 'blur(3px)' 
+                }} />
+
+                {/* Subtle light flares for depth */}
+                <div style={{ position: 'absolute', width: 800, height: 800, top: -200, left: -200, borderRadius: '50%', background: 'radial-gradient(circle, rgba(230, 230, 235, 0.4) 0%, transparent 70%)', filter: 'blur(80px)' }} />
+                <div style={{ position: 'absolute', width: 600, height: 600, top: '20%', right: -100, borderRadius: '50%', background: 'radial-gradient(circle, rgba(240, 240, 245, 0.5) 0%, transparent 70%)', filter: 'blur(80px)' }} />
+            </div>`;
+
+    let lines = content.split('\n');
+    let startIdx = -1;
+    let endIdx = -1;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        if (line.includes('wisps background') || line.includes('Animated background wisps') || line.includes('silver wisps')) {
+            startIdx = i;
+            // The div containing the background starts on the next line usually
+            let braceCount = 0;
+            let started = false;
+            for (let j = i + 1; j < lines.length; j++) {
+                if (lines[j].includes('<div')) {
+                    started = true;
+                    braceCount += (lines[j].match(/<div/g) || []).length;
+                }
+                if (lines[j].includes('</div')) {
+                    braceCount -= (lines[j].match(/<\/div>/g) || []).length;
+                    if (lines[j].includes('/>')) {
+                        // self-closing div don't count towards open brace balance
+                    }
+                }
+
+                if (started && lines[j].includes('</div>')) {
+                    if (lines[j - 1].includes('drift3') || lines[j - 1].includes('orb3') || lines[j - 1].includes('animation: \'orb')) {
+                        endIdx = j;
+                        break;
+                    }
+                }
+            }
+            break;
+        }
+    }
+
+    if (startIdx !== -1 && endIdx !== -1) {
+        lines.splice(startIdx, endIdx - startIdx + 1, backgroundMarkup);
+        fs.writeFileSync(fullPath, lines.join('\n'));
+        console.log('Fixed', file);
+    } else {
+        console.log('Could not find block in', file);
+    }
+}

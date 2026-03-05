@@ -1,0 +1,2 @@
+INFO:     127.0.0.1:64959 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64959 - "GET /api/v1/tools/learn/insights HTTP/1.1" 200 OK
