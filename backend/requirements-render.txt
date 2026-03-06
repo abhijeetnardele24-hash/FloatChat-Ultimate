@@ -1,11 +1,9 @@
-# ✅ Render-compatible requirements — lightweight, no heavy scientific packages
-# Heavy packages (pandas, numpy, netCDF4, xarray, dask) are only for local data ingestion
-# and are NOT needed for the live API server
+# ✅ Render-compatible requirements — uses pre-built wheels, no compilation needed
 
 # FastAPI and web framework
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-python-multipart==0.0.6
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
 
 # Database
 sqlalchemy==2.0.25
@@ -14,26 +12,25 @@ psycopg2-binary==2.9.9
 # Authentication
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
-python-dotenv==1.0.0
+python-dotenv==1.0.1
 
 # HTTP requests
-httpx==0.25.2
+httpx==0.27.0
 requests==2.31.0
 aiohttp==3.9.3
 
-# Validation
-pydantic==2.5.3
-pydantic-settings==2.1.0
-email-validator==2.2.0
+# Validation — newer versions have pre-built wheels (no Rust needed)
+pydantic==2.7.4
+pydantic-settings==2.3.4
+email-validator==2.1.0
 
 # LLM integration
-openai==1.12.0
-google-generativeai==0.3.2
-groq==0.4.2
+openai==1.35.0
+google-generativeai==0.5.4
 
 # Utilities
-python-dateutil==2.8.2
-click==8.2.1
+python-dateutil==2.9.0
+click==8.1.7
 pyyaml==6.0.1
 
 # Testing
