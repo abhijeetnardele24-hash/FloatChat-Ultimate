@@ -1,4 +1,4 @@
-# FloatChat Ultimate
+                                                                            # FloatChat Ultimate
 
 AI-powered ocean data platform for ARGO research workflows with multi-provider chat, filtering, export, and study tooling.
 
