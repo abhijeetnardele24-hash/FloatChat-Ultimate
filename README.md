@@ -2,7 +2,7 @@
 
 AI-powered ocean data platform for ARGO research workflows with multi-provider chat, filtering, export, and study tooling.
 
-## Project Status (2026-02-10)
+                                                                              Project Status (2026-02-10)
 
 ### Phase Completion for Current Scope
 - Phase A: Completed
